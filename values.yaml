@@ -112,7 +112,7 @@ neo4j:
     NEO4J_PLUGINS: '["apoc"]'
 
 mysql:
-  enabled: false
+  enabled: true
   image:
     tag: 8.0.32-debian-11-r26
   auth:
